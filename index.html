@@ -6,12 +6,13 @@
     <title>HOME</title>
     <style>
         body {
-            background-color: brown;
+            background-color: rgb(42, 153, 165);
             }
         h1{
             font-size:25px;
             color: azure;
-            text-align: center;
+            text-align:justify;
+            font-family: Arial, Helvetica, sans-serif;
         }
         h2 {
             color: beige;
@@ -19,11 +20,47 @@
         .p01{
             color: beige;
             font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        
         }
+        
         .p02{
             color: rgb(255, 0, 144);
             text-align: justify;
             font-size: 25px;
+        }
+        .img01{
+            width: 250px;
+            height: auto;
+            border-radius: 2px;
+            display: block;
+            margin: 0 auto;
+        }
+        .table01{
+            border-color: black;
+            border: 1px;
+        }
+        th{
+            color: azure;
+            background-color: blue;
+        }
+        .img03 { 
+            width: 250;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            margin: 0;
+        }
+        td{
+            border: 1px solid black; 
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            text-align: center;
+        }
+        .imgs{
+            width: 100px;
+            height: auto;
+            border-radius: 12px;
         }
     </style>
 </head>
@@ -43,13 +80,13 @@
         <h2 id="marcador01">mascotas</h2>
         <p class="p01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aperiam officiis suscipit quae obcaecati deleniti ratione, accusantium numquam molestias possimus necessitatibus saepe id, recusandae tempore quis eligendi vitae veritatis eaque?</p>
         <br>
-        <img src="/IMAGEN ANGIE CAMILA/5.jpg" alt="">
+        <img class="img01" src="/IMAGEN ANGIE CAMILA/5.jpg" alt="">
         <p class="p02">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex adipisci tempore, expedita perferendis ullam animi optio iusto maiores facere deserunt suscipit qui, nesciunt voluptatibus doloribus repellendus dicta ipsa nobis rerum?</p>
     </DIV>
     <div>
         <h2 id="marcador02">gato</h2>
         <p>La domesticación es un proceso donde modificamos a especies de animales o plantas para que tengan características que nos interesan. En el caso del gato, este proceso se llevó a cabo en Egipto y el Medio Oriente. Lo que nos interesaba era volver a los gatos más amistosos y menos agresivos con nosotros, sin que perdieran sus habilidades de cazador, por lo que es el animal doméstico al que le hemos alterado menos su morfología y conducta. El ancestro silvestre del gato doméstico es el gato silvestre africano, Felis silvestris lybica, que es una especie de gato de comportamiento solitario que vive en África y Medio Oriente, y que sobrevive cazando animales silvestres durante la noche. </p>
-        <img src="IMAGEN ANGIE CAMILA/3.jpg" alt="" title="gato">
+        <img class="img03" src="IMAGEN ANGIE CAMILA/3.jpg" alt="" title="gato">
     </div>
     <div>
         <h2 id="marcador03">precios</h2>
@@ -58,16 +95,13 @@
             <h2 id="marcador04">articulos</h2>
             <p>los articulos son los que estan disponibles</p>
         </div>
-        <div>
-            <h2 id="marcador05">volver al inicio</h2>
-        </div>
-        <table border="1">
-            <caption>lista de precios</caption>
+        <table border="1"> 
+            <caption class="table01">lista de precios</caption>
             <tr>
                 <th>item</th>
                 <th>detalle</th>
                 <th>valor unitario</th>
-                <th>total</th>
+                <th>total</th> 
             </tr>
             <tbody>
                 <tr>
